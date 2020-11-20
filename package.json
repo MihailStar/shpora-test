@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.10.0",
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "@babel/preset-typescript": "^7.10.0",
+    "@types/jest": "^26.0.0",
+    "browserslist": "^4.14.0",
+    "jest": "^26.0.0"
+  },
+  "engines": {
+    "node": ">=13.0.0"
+  },
+  "name": "shpora-test",
+  "private": "true",
+  "scripts": {
+    "build": "babel ./game/index.ts --extensions .ts --out-dir ./game",
+    "test": "jest"
+  }
+}
